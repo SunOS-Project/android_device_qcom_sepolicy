@@ -29,7 +29,6 @@
 # Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
-get_prop(priv_app, vendor_persist_camera_prop)
 get_prop(priv_app, radio_cdma_ecm_prop)
 allow priv_app vendor_dpmtcm_socket:sock_file w_file_perms;
 allow priv_app vendor_dpmd:unix_stream_socket connectto;
