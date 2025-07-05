@@ -33,3 +33,4 @@
 #access to cameraservice apis by faceauth
 hal_client_domain(cameraserver, hal_face)
 hal_client_domain(cameraserver , vendor_hal_imsvthal);
+set_prop(cameraserver, vendor_sys_gpp_prop)
